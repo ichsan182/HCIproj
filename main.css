@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+:root {
+    --bg-col: #FCFCFC;
+    --bg-blue-light: #90CAF9;
+    --bg-blue-dark: #0096C7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gap-modifer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-background {
+    background-color: var(--bg-col);
+    width: 25vh;
+    height: 100vh;
+    padding: 30px;
+}
+
+.profile-pic {
+    width: 20vh;
+    height: 20vh;
+    background-color: #c1e1c1;
+    border-radius: 180px;
+}
+
+.second-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5vh;
+    height: 4.5vh;
+    background-color: var(--bg-blue-light);
+    border-radius: 180px;
+    margin-left: 137px;
+    margin-top: 127px;
+}
+
+.second-pic i {
+    color: #FCFCFC;
+}
+
+.center-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-back {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-category {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+}
+
+.bttn-text p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bttn-arr {
+    display: flex;
+}
+
+.bttn-arr i {
+    font-size: 32px;
+    text-align: center;
+}
