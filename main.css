@@ -63,6 +63,7 @@
 .button-back {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 .profile-category {
@@ -79,9 +80,11 @@
     font-size: small;
 }
 
-.bttn-text p {
+.bttn-text a {
     font-size: 32px;
     font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }
 
 .bttn-arr {
@@ -91,4 +94,12 @@
 .bttn-arr i {
     font-size: 32px;
     text-align: center;
+}
+
+.button-back:hover {
+    color: #0096C7;
+}
+
+.bttn-text a:hover {
+    color: #0096C7;
 }
