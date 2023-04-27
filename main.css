@@ -334,6 +334,7 @@ body {
    font-size: 30px;
    font-weight: 300;
    color: #959595;
+   margin-bottom: 10px;
 }
 
 .topic-text h5 {
@@ -547,7 +548,6 @@ body {
 .navbar-chat-diary {
    display: flex;
    background-color: var(--default);
-   width: 35vh;
    padding: 10px 15px 10px 15px;
    justify-content: space-between;
 }
@@ -634,7 +634,7 @@ body {
    border: 3px solid #dfe0e2;
    border-radius: 30px;
    align-items: center;
-   width: 70%;
+   width: 92%;
    padding: 15px 10px 15px 10px;
    background-color: var(--bg-col);
 }
@@ -648,22 +648,13 @@ body {
 }
 
 .chat-place-diary {
-   display: flex;
-   flex-direction: column;
-   background-image: url(/Assets/CircleBG.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   height: 100vh;
-   width: 100%;
-   padding: 0px 0px 0px 40px;
-   gap: 10px;
+   overflow-y: scroll;
 }
 
 .button-topic-diary {
-   margin-top: 15px 0px 0px 0px;
+   margin-top: 15px;
    background-color: var(--bg-blue-light);
-   width: 70%;
+   width: 92%;
    height: 141px;
    display: flex;
    justify-content: center;
@@ -714,13 +705,27 @@ body {
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   width: 70%;
    background-color: var(--default);
    border-radius: 30px;
    height: 12vh;
    padding-right: 20px;
    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
       0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+   width: 92%;
+}
+.yesterday-diary {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--default);
+   border-radius: 30px;
+   height: 12vh;
+   padding-right: 20px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
+      0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+   width: 92%;
+   margin-bottom: 30px;
 }
 
 .image-1 {
@@ -789,5 +794,23 @@ body {
 
 .text-title-252 {
    padding-right: 176px;
+}
+
+.chat-place-diary-main {
+   display: flex;
+   flex-direction: column;
+   background-image: url(/Assets/CircleBG.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+   padding: 0px 0px 0px 40px;
+   gap: 10px;
+}
+.today-diary-flex {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 /* end of add on */
