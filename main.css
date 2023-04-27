@@ -391,7 +391,7 @@ body {
 /* button topic */
 
 .button-topic {
-   margin-top: 15px;
+   margin: 15px 0px 15px 0px;
    background-color: var(--bg-blue-light);
    width: 25%;
    height: 60px;
@@ -413,13 +413,14 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   margin: 15px 0px 15px 0px;
 }
 
 .text-more p {
    font-size: 30px;
    font-weight: 300;
    color: #959595;
-   padding: 20px 334px 20px 0px;
+
    /* gboleh gini */
 }
 /* end of button topic */
@@ -427,24 +428,41 @@ body {
 
 .box-topic {
    display: flex;
-   width: 23vh;
-   height: 20vh;
    flex-direction: column;
    background-color: var(--default);
    gap: 20px;
    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
       0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
    border-radius: 20px;
+   width: 250px;
+   height: 200px;
+}
+.box-topic2 {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--default);
+   gap: 20px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
+      0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+   border-radius: 20px;
+   width: 200px;
+   height: 200px;
+   margin-right: 10%;
 }
 
 .img-box-topic {
    display: flex;
-   height: 80%;
+   height: 130%;
    background-color: var(--bg-blue-light);
    align-items: center;
    justify-content: center;
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+}
+.img-box-topic2 {
+   display: flex;
+   height: 130%;
+   background-color: var(--bg-blue-light);
+   align-items: center;
+   justify-content: center;
 }
 
 .text-box-topic p {
@@ -455,10 +473,18 @@ body {
    text-align: justify;
 }
 
+.text-box-topic2 p {
+   font-size: 10px;
+   font-weight: 300;
+   color: #959595;
+   padding: 10px 10px 0px 10px;
+   text-align: justify;
+}
+
 .grid2x2-topic {
    display: grid;
    grid-template-rows: 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
    gap: 25px;
    margin-bottom: 40px;
 }
@@ -635,7 +661,7 @@ body {
 }
 
 .button-topic-diary {
-   margin-top: 15px;
+   margin-top: 15px 0px 0px 0px;
    background-color: var(--bg-blue-light);
    width: 70%;
    height: 141px;
@@ -753,3 +779,15 @@ body {
    border-bottom-left-radius: 30px;
 }
 /* end of diary */
+
+/* add on */
+.just-stay {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.text-title-252 {
+   padding-right: 176px;
+}
+/* end of add on */
