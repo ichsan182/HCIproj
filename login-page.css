@@ -1,0 +1,86 @@
+#main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.content {
+  width: 500px;
+}
+
+#image {
+  width: 100%;
+}
+
+#right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+#header-container h5 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #8e8e8e;
+}
+
+#header-container h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: #90caf9;
+}
+
+#fields-container {
+  width: 100%;
+}
+
+#fields-container select,
+#fields-container input {
+  border: solid #c4c4c4 2.5px;
+  color: #c4c4c4;
+  border-radius: 18.32px;
+  padding-left: 10px;
+  height: 55px;
+  margin-top: 20px;
+}
+
+#fields-container select:focus,
+#fields-container input:focus {
+  border: solid #90caf9 3px;
+  outline: #90caf9;
+  box-shadow: 0 0 19.15px 4.79px #90caf980;
+}
+
+#fields-container select {
+  width: 100%;
+}
+
+#phone-code {
+  width: 12%;
+  margin-right: 5px;
+}
+
+#phone-number {
+  width: 86%;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+}
+
+/* Phone */
+@media only screen and (max-width: 425px) {
+}

@@ -1,0 +1,140 @@
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottom-content {
+  gap: 35px;
+}
+
+#image {
+  width: 500px;
+}
+
+#header-container h5 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+  color: #8e8e8e;
+}
+
+#header-container h3 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#code-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#code-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#code-container input {
+  height: 75px;
+  width: 75px;
+  border: solid #c4c4c4 2.5px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#code-container input:focus {
+  border: solid #90caf9 3px;
+  outline: #90caf9;
+  box-shadow: 0 0 19.15px 4.79px #90caf980;
+}
+
+#button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-wrapper input {
+  height: 40px;
+  width: 350px;
+  border-radius: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #90caf9;
+  border: none;
+  box-shadow: 4px 4px 8px 0px #71d5e426;
+}
+
+#button-wrapper input:hover {
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  transform: scale(1.02);
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+  #image {
+    width: 400px;
+  }
+
+  #header-container h5 {
+    font-size: 0.8rem;
+  }
+
+  #header-container h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Phone */
+@media only screen and (max-width: 425px) {
+  #image {
+    width: 300px;
+  }
+
+  #header-container h5 {
+    font-size: 0.6rem;
+  }
+
+  #header-container h3 {
+    font-size: 1.5rem;
+  }
+
+  #code-container {
+    gap: 15px;
+  }
+
+  #code-container input {
+    height: 55px;
+    width: 55px;
+    font-size: 1rem;
+  }
+
+  #button-wrapper input {
+    height: 40px;
+    width: 250px;
+  }
+}

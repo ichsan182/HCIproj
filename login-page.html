@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="login-page.css" />
+    <title>Circle</title>
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <div class="content" id="left-content">
+        <div id="image-wrapper">
+          <img src="assets/loginimage.png" alt="" id="image" />
+        </div>
+      </div>
+      <div class="content" id="right-content">
+        <div id="header-container">
+          <h3>Welcome to Circle!</h3>
+          <h5>We make your communication more fun!</h5>
+        </div>
+        <div id="fields-container">
+          <form id="login-form" onsubmit="isValid()">
+            <select name="" id="country-selection">
+              <option value="Choose Country" disabled selected>
+                Choose Country
+              </option>
+              <option value="indonesia">Indonesia</option>
+              <option value="usa">USA</option>
+              <option value="china">China</option>
+              <option value="japan">Japan</option>
+            </select>
+            <div>
+              <input
+                type="text"
+                value="+"
+                inputmode="numeric"
+                id="phone-code"
+              />
+              <input
+                type="text"
+                placeholder="Enter Phone Number"
+                inputmode="numeric"
+                id="phone-number"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="login-page.js"></script>
+</html>
