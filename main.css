@@ -1344,3 +1344,26 @@ body {
    height: 81vh;
    margin-top: 73px;
 }
+
+.circle-chat-place{
+   background-image: url("./assets/homecircle/foodcircleheader.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.chat-home-place-food {
+   display: flex;
+   flex-direction: column;
+   background-image: url(/Assets/CircleBG.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+   width: 100%;
+   overflow-y: scroll;
+}
+
+.mod-div{
+   padding-top: 120px;
+   padding-left: 40px;
+}
