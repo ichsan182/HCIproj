@@ -269,10 +269,17 @@ body {
 .navbar-chat {
    display: flex;
    background-color: var(--default);
-   width: 100;
+   width: 400px;
    padding: 10px 15px 10px 15px;
    justify-content: space-between;
    transition: 0.3s;
+}
+.container-chat button{
+   border: none;
+}
+
+.container-chat button:hover{
+   cursor: pointer;
 }
 
 .navbar-chat:hover {
