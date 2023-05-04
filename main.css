@@ -1097,6 +1097,7 @@ body {
    justify-content: space-between;
    align-items: center;
    gap: 30px;
+   margin-right: 50px;
 }
 
 .search-bar-smthg i {
@@ -1298,7 +1299,7 @@ body {
    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
    position: fixed;
    top: 89vh;
-   width: 139vh;
+   width: 132vh;
 }
 /* end of the actual chat */
 /* end of chat */
