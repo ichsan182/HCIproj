@@ -48,7 +48,7 @@ body {
 
 .profile-background {
    background-color: var(--bg-col);
-   width: 25vh;
+   width: 529px;
    height: 100vh;
    padding: 30px;
 }
@@ -274,11 +274,11 @@ body {
    justify-content: space-between;
    transition: 0.3s;
 }
-.container-chat button{
+.container-chat button {
    border: none;
 }
 
-.container-chat button:hover{
+.container-chat button:hover {
    cursor: pointer;
 }
 
@@ -1299,7 +1299,7 @@ body {
    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
    position: fixed;
    top: 89vh;
-   width: 132vh;
+   width: 138vh;
 }
 /* end of the actual chat */
 /* end of chat */
@@ -1353,7 +1353,7 @@ body {
    margin-top: 73px;
 }
 
-.circle-chat-place{
+.circle-chat-place {
    background-image: url("./assets/homecircle/foodcircleheader.png");
    background-repeat: no-repeat;
    background-size: contain;
@@ -1371,7 +1371,7 @@ body {
    overflow-y: scroll;
 }
 
-.mod-div{
+.mod-div {
    padding-top: 120px;
    padding-left: 40px;
 }
