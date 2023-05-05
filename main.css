@@ -983,7 +983,8 @@ body {
    gap: 11px;
    background-color: var(--bg-col);
    font-size: 18px;
-   color: #c4c4c4;
+   color: black;
+   font-weight: bold;
 }
 
 .textinput input:focus {
@@ -1005,7 +1006,7 @@ body {
    gap: 11px;
    background-color: var(--bg-col);
    font-size: 18px;
-   color: #c4c4c4;
+   color: #8e8e8e;
 }
 
 .textinput2 textarea:focus {
@@ -1482,4 +1483,18 @@ body {
    font-weight: 600;
    font-size: 18px;
    margin-top: 30px;
+}
+
+.today-diary-flex button{
+   width: 1000px;
+   border: none;
+   background: none;
+}
+
+.diarybackbutton button{
+   border: none;
+   background: none;
+   cursor: pointer;
+   margin-top: 30px;
+   margin-left: 10px;
 }
