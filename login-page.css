@@ -77,6 +77,22 @@
   width: 86%;
 }
 
+#button-wrapper input:hover {
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  transform: scale(1.02);
+}
+#button-wrapper input {
+  height: 40px;
+  width: 500px;
+  border-radius: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #90caf9;
+  border: none;
+  box-shadow: 4px 4px 8px 0px #71d5e426;
+}
+
 /* Tablet */
 @media only screen and (max-width: 768px) {
 }
